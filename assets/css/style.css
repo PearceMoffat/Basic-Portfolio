@@ -1,16 +1,14 @@
-html {
+html, body {
 	height:100%;
 	margin:0;
 }
 
 body {
 	background-image: url("../images/waves.png");
-	margin: 0;
 	padding: 0;
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-size: 18px;
-	color: #777777;
-	height: 100%;
+	color: #777777;	
 }
 
 a {
@@ -93,7 +91,6 @@ footer {
 	font-size: 12px;
 	color: #C5CCB8;
 	padding: 36px;
-	letter-spacing: .125px;
 }
 
 .button {
@@ -191,11 +188,6 @@ footer {
 	height: 40px;
 }
 
-.verticalline {
-	border-right: 1px solid #dddddd;
-	float: left;
-}
-
 #main-info {
 	float: left;
 	width: 588px;
@@ -219,20 +211,18 @@ footer {
 	margin-bottom: 12px;
 }
 
+#img1, #img2 {
+	margin-right: 10px;
+}
+
 #me {
-	float: left;
 	width: 200px;
 	height: 150px;
 	margin: 10px 25px 10px 0px;
 }
 
 #bodytitle {
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-
-#img1, #img2 {
-	margin-right: 10px;
+	padding: 30px 0 20px 0;
 }
 
 #secondbar {
